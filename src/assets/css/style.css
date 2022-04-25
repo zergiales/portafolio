@@ -21,6 +21,18 @@
    
 }
 /*main*/
+.titulillo{
+    color: cadetblue;
+}
+.texto{
+    font-size: 15px;
+    font-style: oblique;
+    text-align: start;
+}
+.texto2{
+    font-size: 18px;
+    font-weight: bold;
+}
 /*donde esta todo */
 .container{
     background-color: #e5e5ef;
@@ -41,6 +53,21 @@
     box-shadow: 5px 5px 10px 1px rgba(117, 95, 242, 0.408);
 }
 /*MyProyects*/
+/*uso de clases reactivas*/
+.v-card:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    transform: scale(0.9);
+}
+.imagen{
+    height: 15em;
+}
+.iconitos{
+    margin-top: 40px;
+    height: 50px;
+    width: 8px;
+}
 /*About me*/
 .contenedor2{
     background: linear-gradient(135deg, rgba(244, 129, 58, 1) 0.5%, rgba(118, 95, 242, 1) 60%, rgba(35, 28, 133, 1) 99%);
