@@ -1,0 +1,55 @@
+@font-face {
+    font-family: defecto;
+    src: url('../fonts/Sf-pro-display/SFPRODISPLAYREGULAR.OTF');
+}
+*{
+    font-family: defecto;
+    transition: 1s;
+}
+
+/*barra de navegacion*/
+#header{
+    height: 120px;
+    width: 100%;
+}
+#menu{
+    display: flex;
+    justify-content: center;}
+#menu a{
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+/*main*/
+/*donde esta todo */
+.container{
+    background-color: #e5e5ef;
+}
+/*componente de MyHome*/
+.contenedor1{
+    margin-top: 3em;
+    background: linear-gradient(135deg, rgba(244,129,58,1) 0.5%, rgba(118,95,242,1) 60%, rgba(35,28,133,1) 99%);
+    height: 80%;
+    width: 90%;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 2em;
+}
+.btnC:hover{
+    transition: 0.8s;
+    transform: translateY(5px);
+    box-shadow: 5px 5px 10px 1px rgba(117, 95, 242, 0.408);
+}
+/*MyProyects*/
+/*About me*/
+.contenedor2{
+    background: linear-gradient(135deg, rgba(244, 129, 58, 1) 0.5%, rgba(118, 95, 242, 1) 60%, rgba(35, 28, 133, 1) 99%);
+}
+/*ContactMe*/
+.dos:hover{
+    transform: scale(1.4);
+}
+/*footer*/
+.subheading{
+    text-align: center;
+}
