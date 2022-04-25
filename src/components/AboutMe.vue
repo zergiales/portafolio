@@ -1,8 +1,8 @@
 <template>
-  <div class="contenedor2">
+  <div class="contenedor2 elevation-3">
     <v-row>
       <v-col cols="12" class="text-center fade-scroll  white--text d-flex justify-center">
-        <h1>ABOUT ME</h1>
+        <h1 class="display-2">ABOUT ME</h1>
         <p></p>
       </v-col>
     </v-row>
@@ -10,7 +10,7 @@
       <v-col cols="12" class="text-center fade-scroll white--text
       d-flex justify-center ">
         <div>
-          <p>
+          <p class="texto2">
           <br />
             Me considero una persona autodidacta con muchas ganas de aprender.<br/>
             Aprendo rápido, me gusta trabajar en grupo, resolutivo y considero que<br/>

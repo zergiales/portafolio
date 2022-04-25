@@ -15,7 +15,7 @@
         </div>
       </v-col>
       <v-col cols="6" class="text-center fade-scroll white--text">
-        <div class="contenedor1">
+        <div class="contenedor1 elevation-4">
           <h1>Hello world! </h1>
           <p><strong>I´m Sergio</strong></p>
           <p>

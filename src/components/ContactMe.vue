@@ -13,7 +13,7 @@
       </v-col>
       <v-col cols="6" class="text-center fade-scroll white--text
       d-flex justify-center align-center">
-        <div class="contenedor1" height="50%">
+        <div class="contenedor1 elevation-3" height="50%">
           <h2>Si estas interesado</h2>
           <p>
             Para ponerte en contacto conmigo,hazemlo saber enviandome un correo electronico<br />
