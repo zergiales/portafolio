@@ -1,5 +1,5 @@
 <template>
-  <div class="contenedor2 elevation-3">
+  <div class="contenedor2 elevation-3" id="about">
     <v-row>
       <v-col cols="12" class="text-center fade-scroll  white--text d-flex justify-center">
         <h1 class="display-2">ABOUT ME</h1>

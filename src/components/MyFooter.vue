@@ -27,12 +27,12 @@ export default {
       {
         name: 'github',
         icon: 'mdi-github',
-        url: 'https://github.com/',
+        url: 'https://github.com/zergiales',
       },
       {
         name: 'linkedin',
         icon: 'mdi-linkedin',
-        url: 'https://es.linkedin.com/',
+        url: 'https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/',
       },
     ],
   }),

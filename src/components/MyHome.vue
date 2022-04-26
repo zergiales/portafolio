@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <v-row>
       <v-col cols="6" class="text-center fade-scroll  d-flex justify-center">
         <div>

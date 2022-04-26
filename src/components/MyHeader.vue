@@ -16,6 +16,15 @@
 <script>
 export default {
   name: 'MiHeader',
+  methods: {
+    scroll(section) {
+      const s = document.getElementById(section).offsetTop;
+      window.scroll({
+        top: s,
+        behavior: 'smooth',
+      });
+    },
+  },
 };
 </script>
 <style>@import '../assets/css/style.css';</style>
