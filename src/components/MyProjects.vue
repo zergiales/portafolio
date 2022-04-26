@@ -26,7 +26,7 @@
           </v-card-text>
           <v-divider class="mx-4"></v-divider>
           <v-card-actions class="d-flex justify-center align-center">
-            <v-btn color="primary" large outlined class="btnC">
+            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link)">
               Show more
             </v-btn>
           </v-card-actions>
@@ -50,7 +50,7 @@ export default {
             'logos/javascript',
           ],
           descripcion: 'Ahorcado que realizado con un array que contiene palabras que tendras que adivinar.',
-          link: '',
+          link: 'https://github.com/zergiales/ahorcado.git',
         },
         {
           img: 'capturas/trivialIcon',
@@ -63,7 +63,7 @@ export default {
             'logos/csv',
           ],
           descripcion: 'Trivial que guarda las preguntas en un csv. 100% funcional.',
-          link: '',
+          link: 'https://github.com/zergiales/trivial.git',
         },
         {
           img: 'capturas/calculadoraIcon',
@@ -74,7 +74,7 @@ export default {
             'logos/javascript',
           ],
           descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica.',
-          link: '',
+          link: 'https://github.com/zergiales/calculadora.git',
         },
         {
           img: 'capturas/gesto',
@@ -87,7 +87,7 @@ export default {
             'logos/sql',
           ],
           descripcion: 'Gestor de base de datos de una escuela de alumnos funcional.',
-          link: '',
+          link: 'https://github.com/zergiales/gestor-base-alumnos.git',
         },
       ],
     };
@@ -96,6 +96,9 @@ export default {
     getImg(img) {
       // eslint-disable-next-line
       return require(`../assets/img/${img}.png`);
+    },
+    abrirVentana(parametro) {
+      window.open(parametro);
     },
   },
 };

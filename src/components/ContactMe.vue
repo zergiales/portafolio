@@ -7,17 +7,8 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col
-        cols="6"
-        class="
-          text-center
-          fade-scroll
-          white--text
-          d-flex
-          justify-center
-          align-center
-        "
-      >
+      <v-col cols="6" class="text-center fade-scroll white--text d-flex justify-center
+      align-center">
         <div class="contenedor1 elevation-3" height="50%">
           <h2>Si estas interesado</h2>
           <p>
@@ -25,27 +16,18 @@
             electronico<br />
             Tambien puedes ponerte en contacto en conmigo a traves de
             <strong
-              ><a href="http://" class="enlace white--text">Linkedin</a
+              ><a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/" class="enlace white--text">Linkedin</a
               >.</strong
             ><br />
             Y si aun no has visto mis proyectos te recomiendos que mirar mi
             <strong
-              ><a href="http://" class="enlace white--text">Github</a>.</strong
+              ><a href="https://github.com/zergiales" class="enlace white--text">Github</a>.</strong
             ><br />
           </p>
         </div>
       </v-col>
-      <v-col
-        cols="6"
-        class="
-          text-center
-          fade-scroll
-          white--text
-          d-flex
-          justify-center
-          align-center
-        "
-      >
+      <v-col cols="6" class="text-center fade-scroll white--text
+      d-flex justify-center align-center">
         <div class="formulario elevation-3">
           <form action=”mailto:zergiosanchezlopez@gmail.com”
           method="post" enctype="multipart/form-data">
