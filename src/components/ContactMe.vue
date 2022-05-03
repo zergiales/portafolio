@@ -51,7 +51,7 @@
             <!--botones-->
             <v-btn class="mr-4" @click="submit()"
             :disabled="$v.$invalid" >Enviar</v-btn>
-            <v-btn @click="limpiar()">Limpiar </v-btn>
+            <v-btn @click="clear()">Limpiar </v-btn>
           </form>
         </div>
       </v-col>
@@ -92,17 +92,8 @@ export default {
     ],
     checkbox: false,
   }),
-  updated() {
-    // eslint-disable-next-line
-    console.log(this.$v);
-  },
-  mounted() {
-    // eslint-disable-next-line
-    console.log(this.$v);
-  },
   methods: {
     clear() {
-      this.$v.$reset();
       this.name = '';
       this.email = '';
       this.select = null;
@@ -131,9 +122,7 @@ export default {
       return mensaje;
     },
     submit() {
-      return console.log(`nombre: ${this.name}
-      correo: ${this.email}
-      email: ${this.select}`);
+      
     },
   },
 
