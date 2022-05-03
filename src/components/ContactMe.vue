@@ -32,23 +32,26 @@
           <form action=”mailto:zergiosanchezlopez@gmail.com”
           method="post" enctype="multipart/form-data">
             <!--donde metemos el nombre-->
-            <v-text-field v-model="name" :error-messages="nameErrors" :counter="10"
-              label="Nombre" required @input="$v.name.$touch()" @blur="$v.name.$touch()"
+            <v-text-field v-model="name"  :counter="20"
+            :class="{error1:$v.name.$error }"
+              label="Nombre" required @input="$v.name.$touch()"
+              :error-messages="mensajeName()"
             ></v-text-field>
             <!--email-->
             <v-text-field
-              v-model="email" :error-messages="emailErrors" label="E-mail" required
-              @input="$v.email.$touch()" @blur="$v.email.$touch()"></v-text-field>
+              v-model="email" label="E-mail" required :error-messages="mensajeEmail()"
+            ></v-text-field>
             <!--para saber si es una empresa o particular-->
-            <v-select v-model="select" :items="items" :error-messages="selectErrors"
+            <v-select v-model="select" :items="items"
             label="¿Eres una empresa o partcular?" required @change="$v.select.$touch()"
             @blur="$v.select.$touch()"></v-select>
-            <v-checkbox v-model="checkbox" :error-messages="checkboxErrors" label="Do you agree?"
+            <v-checkbox v-model="checkbox"  label="Do you agree?"
             required @change="$v.checkbox.$touch()" @blur="$v.checkbox.$touch()"
             ></v-checkbox>
             <!--botones-->
-            <v-btn class="mr-4" @click="submit"> submit </v-btn>
-            <v-btn @click="clear"> clear </v-btn>
+            <v-btn class="mr-4" @click="submit()"
+            :disabled="$v.$invalid" >Enviar</v-btn>
+            <v-btn @click="limpiar()">Limpiar </v-btn>
           </form>
         </div>
       </v-col>
@@ -57,14 +60,19 @@
 </template>
 <script>
 import { validationMixin } from 'vuelidate';
-import { required, maxLength, email } from 'vuelidate/lib/validators';
+import {
+  required, maxLength, email, helpers,
+} from 'vuelidate/lib/validators';
+
+const regexName = helpers.regex('regexName', /^[a-zA-Z]*$/);
 
 export default {
   name: 'AboutMe',
   mixins: [validationMixin],
-
   validations: {
-    name: { required, maxLength: maxLength(10) },
+    name: {
+      required, maxLength: maxLength(20), regexName,
+    },
     email: { required, email },
     select: { required },
     checkbox: {
@@ -84,11 +92,15 @@ export default {
     ],
     checkbox: false,
   }),
-
+  updated() {
+    // eslint-disable-next-line
+    console.log(this.$v);
+  },
+  mounted() {
+    // eslint-disable-next-line
+    console.log(this.$v);
+  },
   methods: {
-    submit() {
-      this.$v.$touch();
-    },
     clear() {
       this.$v.$reset();
       this.name = '';
@@ -96,7 +108,40 @@ export default {
       this.select = null;
       this.checkbox = false;
     },
+    mensajeName() {
+      // eslint-disable-next-line
+      // debugger;
+      const mensaje = [];
+      if (!this.$v.name.regexName) {
+        mensaje.push('el campo solo admite caracteres alfabeticos');
+      } else if (!this.$v.name.required && this.$v.name.$dirty) {
+        mensaje.push('rellena el campo');
+      } else if (!this.$v.name.maxLength) {
+        mensaje.push('has llegado al limite');
+      }
+      return mensaje;
+    },
+    mensajeEmail() {
+      const mensaje = [];
+      if (!this.$v.email.email) {
+        mensaje.push('el campo solo admite caracteres alfabeticos');
+      } else if (!this.$v.email.required && this.$v.email.$dirty) {
+        mensaje.push('rellena el campo');
+      }
+      return mensaje;
+    },
+    submit() {
+      return console.log(`nombre: ${this.name}
+      correo: ${this.email}
+      email: ${this.select}`);
+    },
   },
 
 };
 </script>
+<style>
+  .error1 {
+    color: red;
+  }
+
+</style>
