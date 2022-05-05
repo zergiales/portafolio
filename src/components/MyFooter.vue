@@ -1,20 +1,14 @@
 <template>
   <v-footer padless >
-    <v-card color="primary" class="flex" flat tile>
-      <v-card-title class="secondaryMedium">
-        <strong class="subheading white--text">Portafolio </strong>
-        <v-spacer></v-spacer>
-
+    <v-card color="secondaryMedium" class="flex" flat tile>
+      <v-card-text class="py-2 white--text text-center">
+        {{ new Date().getFullYear() }} — <strong>Sergio Sánchez López</strong>
         <v-btn v-for="icon in icons" :key="icon.name" class="mx-4" dark icon
         @click="abrirVentana(icon.url)">
-          <v-icon size="24px">
+        <v-icon size="24px">
             {{ icon.icon }}
           </v-icon>
         </v-btn>
-      </v-card-title>
-
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>Sergio Sánchez López</strong>
       </v-card-text>
     </v-card>
   </v-footer>
