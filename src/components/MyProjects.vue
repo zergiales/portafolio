@@ -2,7 +2,7 @@
   <div id="proyects">
     <v-row>
       <v-col cols="12" class="text-center fade-scroll  d-flex justify-center">
-        <h1>PROYECTS</h1>
+        <h1>PROYECTOS</h1>
         <p></p>
       </v-col>
     </v-row>
@@ -49,7 +49,7 @@ export default {
             'logos/css3',
             'logos/javascript',
           ],
-          descripcion: 'Ahorcado que realizado con un array que contiene palabras que tendras que adivinar.',
+          descripcion: 'Ahorcado que realizado con un array  que tiene palabras (POO)',
           link: 'https://github.com/zergiales/ahorcado.git',
         },
         {
@@ -73,12 +73,12 @@ export default {
             'logos/css3',
             'logos/javascript',
           ],
-          descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica.',
+          descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica. (POO)',
           link: 'https://github.com/zergiales/calculadora.git',
         },
         {
           img: 'capturas/gesto',
-          name: 'Gestor de alumnos',
+          name: 'Gestor alumnos',
           tecnologias: [
             'logos/html5',
             'logos/bootstrap',

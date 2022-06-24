@@ -2,7 +2,7 @@
   <div class="contenedor3" id="contact">
     <v-row>
       <v-col cols="12" class="text-center fade-scroll d-flex justify-center">
-        <h1>CONTACT WITH ME</h1>
+        <h1>CONTACTA CONMIGO</h1>
         <p></p>
       </v-col>
     </v-row>
@@ -12,14 +12,14 @@
         <div class="contenedor1 elevation-3" height="50%">
           <h2>Si estas interesado</h2>
           <p>
-            Para ponerte en contacto conmigo,hazemlo saber enviandome un correo
-            electronico<br />
-            Tambien puedes ponerte en contacto en conmigo a traves de
+            Para ponerte en contacto conmigo,hazmElo saber enviandome un correo
+            electrónico<br />
+            También puedes ponerte en contacto en conmigo a través de
             <strong
               ><a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/" class="enlace white--text">Linkedin</a
               >.</strong
             ><br />
-            Y si aun no has visto mis proyectos te recomiendos que mirar mi
+            Y si aun no has visto mis proyectos te recomiendo que entres mi
             <strong
               ><a href="https://github.com/zergiales" class="enlace white--text">Github</a>.</strong
             ><br />

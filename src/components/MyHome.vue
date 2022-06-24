@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <v-row>
-      <v-col cols="6" class="text-center fade-scroll  d-flex justify-center">
+      <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll  d-flex justify-center">
         <div>
           <lottie-player
             class="animation-reverse"
@@ -14,17 +14,15 @@
           ></lottie-player>
         </div>
       </v-col>
-      <v-col cols="6" class="text-center fade-scroll white--text">
+      <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll white--text">
         <div class="contenedor1 elevation-4">
-          <h1>Hello world! </h1>
-          <p><strong>I´m Sergio</strong></p>
+          <h1>Bienvendio a mi página web</h1>
+          <h2>Soy Sergio Sánchez</h2>
           <p>
-              Soy desarrollador de aplicaciones web orientado tanto a la parte de
-              FrontEnd como de Backend.<br />
-            <br />
-            A continuación  podrás ver todos los proyectos personales que he llevado a cabo,
-            y las tecnologías utilizadas para su desarrollo.<br />
-            Para saber más pulse el boton
+            Y Soy desarrollador de aplicaciones Web tando de la parte de back como
+            de la parte de front.<br />
+            Aquí podrás ver mis ultimos proyectos y ver en que tecnologías estoy especializado<br>
+            Si quieres saber más pulsa en el botón
           </p>
           <v-btn color="secondaryLight" large outlined class="btnC"
             >About me</v-btn
