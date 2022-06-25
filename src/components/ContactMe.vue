@@ -19,7 +19,7 @@
               ><a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/" class="enlace white--text">Linkedin</a
               >.</strong
             ><br />
-            Y si aun no has visto mis proyectos te recomiendo que entres mi
+            Y si quieres investigar más, aquí te dejo mi
             <strong
               ><a href="https://github.com/zergiales" class="enlace white--text">Github</a>.</strong
             ><br />

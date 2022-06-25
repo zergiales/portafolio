@@ -1,7 +1,7 @@
 <template>
   <div id="proyects">
     <v-row>
-      <v-col cols="12" class="text-center fade-scroll  d-flex justify-center">
+      <v-col col="12" class="text-center fade-scroll  d-flex justify-center">
         <h1>PROYECTOS</h1>
         <p></p>
       </v-col>
@@ -9,7 +9,7 @@
     <!--tarjetas donde se muestran todos los proyectos que tengo-->
     <v-row>
       <v-col v-for="proyect in proyects" :key="proyect.name"
-      cols="3" class="text-center fade-scroll tarjeta d-flex justify-center">
+      xl="3" lg="4" md="12" sm="12" class="text-center fade-scroll tarjeta d-flex justify-center">
         <v-card class="mx-auto my-12" width="350" height="580">
           <template slot="progress">
             <v-progress-linear color="deep-purple" height="10" indeterminate></v-progress-linear>
