@@ -9,7 +9,7 @@
     <!--tarjetas donde se muestran todos los proyectos que tengo-->
     <v-row>
       <v-col v-for="proyect in proyects" :key="proyect.name"
-      xl="3" lg="4" md="12" sm="12" class="text-center fade-scroll tarjeta d-flex justify-center">
+      xl="3" lg="4" md="6" sm="12" class="text-center fade-scroll tarjeta d-flex justify-center">
         <v-card class="mx-auto my-12" width="350" height="580">
           <template slot="progress">
             <v-progress-linear color="deep-purple" height="10" indeterminate></v-progress-linear>
@@ -41,6 +41,30 @@ export default {
   data() {
     return {
       proyects: [
+        {
+          img: 'capturas/geo',
+          name: 'Geo Water',
+          tecnologias: [
+            'logos/logo',
+            'logos/vuetify',
+            'logos/slim',
+            'logos/vuex',
+            'logos/axios',
+          ],
+          descripcion: 'Aplicacion de geoposicionamiento y localización de baños',
+          link: 'https://github.com/zergiales/geo-water.git',
+        },
+        {
+          img: 'capturas/brick',
+          name: 'Brick Game',
+          tecnologias: [
+            'logos/html5',
+            'logos/css3',
+            'logos/javascript',
+          ],
+          descripcion: 'brick breaker sencillo  (juego arcade)',
+          link: 'https://github.com/zergiales/brick-game.git',
+        },
         {
           img: 'capturas/ahorcadoIcon',
           name: 'Ahorcado',

@@ -1,5 +1,5 @@
 <template id="header">
-  <v-app-bar color="secondaryMedium" light flat class="px-8">
+  <v-app-bar color="secondaryMedium" light flat class="px-8 hidden-sm-and-down">
         <v-spacer></v-spacer>
         <v-tabs fixed-tabs dark color="primaryLight">
             <v-tab  active-class="active"
@@ -7,7 +7,7 @@
             <v-tab  active-class="active"
             @click="scroll('proyects')">Proyectos</v-tab>
             <v-tab  active-class="active"
-            @click="scroll('about')">Sobre mi</v-tab>
+            @click="scroll('about')">SOBRE MÍ</v-tab>
             <v-tab  active-class="active"
             @click="scroll('contact')">Contacto</v-tab>
         </v-tabs>

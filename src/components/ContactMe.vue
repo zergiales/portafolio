@@ -7,7 +7,8 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6" class="text-center fade-scroll white--text d-flex justify-center
+      <v-col xl="6" lg="6" md="12" sm="12"
+      class="text-center fade-scroll white--text d-flex justify-center
       align-center">
         <div class="contenedor1 elevation-3" height="50%">
           <h2>Si estas interesado</h2>
@@ -26,7 +27,7 @@
           </p>
         </div>
       </v-col>
-      <v-col cols="6" class="text-center fade-scroll white--text
+      <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll white--text
       d-flex justify-center align-center">
         <div class="formulario elevation-3">
           <form action=”mailto:zergiosanchezlopez@gmail.com”
