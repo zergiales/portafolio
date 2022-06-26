@@ -15,7 +15,7 @@
         </div>
       </v-col>
       <v-col xl="6" lg="6" md="12" sm="12" class="text-center
-      fade-scroll white--text ml-16">
+      fade-scroll white--text">
         <div class="contenedor1 elevation-4">
           <h1>Bienvendio a mi página web</h1>
           <h2>Soy Sergio Sánchez</h2>
