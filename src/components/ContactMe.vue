@@ -46,7 +46,7 @@
             <v-select v-model="select" :items="items"
             label="¿Eres una empresa o partcular?" required @change="$v.select.$touch()"
             @blur="$v.select.$touch()"></v-select>
-            <v-checkbox v-model="checkbox"  label="Do you agree?"
+            <v-checkbox v-model="checkbox"  label="Aceptas las condiciones y terminos"
             required @change="$v.checkbox.$touch()" @blur="$v.checkbox.$touch()"
             ></v-checkbox>
             <!--botones-->
