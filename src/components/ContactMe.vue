@@ -30,7 +30,7 @@
       <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll white--text
       d-flex justify-center align-center">
         <div class="formulario elevation-3">
-          <form action=”mailto:zergiosanchezlopez@gmail.com”
+          <form action="mailto: zergiosanchezlopez@gmail.com"
           method="post" enctype="multipart/form-data">
             <!--donde metemos el nombre-->
             <v-text-field v-model="name"  :counter="20"
@@ -60,10 +60,9 @@
   </div>
 </template>
 <script>
+/*import vuelidate */
 import { validationMixin } from 'vuelidate';
-import {
-  required, maxLength, email, helpers,
-} from 'vuelidate/lib/validators';
+import {required, maxLength, email, helpers,} from 'vuelidate/lib/validators';
 
 const regexName = helpers.regex('regexName', /^[a-zA-Z]*$/);
 
