@@ -7,7 +7,7 @@
             <v-tab  active-class="active"
             @click="scroll('proyects')">Proyectos</v-tab>
             <v-tab  active-class="active"
-            @click="scroll('about')">SOBRE MÍ</v-tab>
+            @click="scroll('about')">Sobre mi</v-tab>
             <v-tab  active-class="active"
             @click="scroll('contact')">Contacto</v-tab>
         </v-tabs>
