@@ -1,15 +1,15 @@
 <template>
   <div id="proyects">
     <v-row>
-      <v-col cols="12" class="text-center fade-scroll  d-flex justify-center">
-        <h1>PROYECTS</h1>
+      <v-col col="12" class="text-center fade-scroll  d-flex justify-center">
+        <h1>PROYECTOS</h1>
         <p></p>
       </v-col>
     </v-row>
     <!--tarjetas donde se muestran todos los proyectos que tengo-->
     <v-row>
       <v-col v-for="proyect in proyects" :key="proyect.name"
-      cols="3" class="text-center fade-scroll tarjeta d-flex justify-center">
+      xl="3" lg="4" md="6" sm="12" class="text-center fade-scroll tarjeta d-flex justify-center">
         <v-card class="mx-auto my-12" width="350" height="580">
           <template slot="progress">
             <v-progress-linear color="deep-purple" height="10" indeterminate></v-progress-linear>
@@ -42,6 +42,30 @@ export default {
     return {
       proyects: [
         {
+          img: 'capturas/geo',
+          name: 'Geo Water',
+          tecnologias: [
+            'logos/logo',
+            'logos/vuetify',
+            'logos/slim',
+            'logos/vuex',
+            'logos/axios',
+          ],
+          descripcion: 'Aplicacion de geoposicionamiento y localización de baños',
+          link: 'https://github.com/zergiales/geo-water.git',
+        },
+        {
+          img: 'capturas/brick',
+          name: 'Brick Game',
+          tecnologias: [
+            'logos/html5',
+            'logos/css3',
+            'logos/javascript',
+          ],
+          descripcion: 'brick breaker sencillo  (juego arcade)',
+          link: 'https://github.com/zergiales/brick-game.git',
+        },
+        {
           img: 'capturas/ahorcadoIcon',
           name: 'Ahorcado',
           tecnologias: [
@@ -49,7 +73,7 @@ export default {
             'logos/css3',
             'logos/javascript',
           ],
-          descripcion: 'Ahorcado que realizado con un array que contiene palabras que tendras que adivinar.',
+          descripcion: 'Ahorcado que realizado con un array  que tiene palabras (POO)',
           link: 'https://github.com/zergiales/ahorcado.git',
         },
         {
@@ -73,12 +97,12 @@ export default {
             'logos/css3',
             'logos/javascript',
           ],
-          descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica.',
+          descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica. (POO)',
           link: 'https://github.com/zergiales/calculadora.git',
         },
         {
           img: 'capturas/gesto',
-          name: 'Gestor de alumnos',
+          name: 'Gestor alumnos',
           tecnologias: [
             'logos/html5',
             'logos/bootstrap',

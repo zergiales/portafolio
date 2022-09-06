@@ -2,34 +2,35 @@
   <div class="contenedor3" id="contact">
     <v-row>
       <v-col cols="12" class="text-center fade-scroll d-flex justify-center">
-        <h1>CONTACT WITH ME</h1>
+        <h1>CONTACTA CONMIGO</h1>
         <p></p>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6" class="text-center fade-scroll white--text d-flex justify-center
+      <v-col xl="6" lg="6" md="12" sm="12"
+      class="text-center fade-scroll white--text d-flex justify-center
       align-center">
         <div class="contenedor1 elevation-3" height="50%">
           <h2>Si estas interesado</h2>
           <p>
-            Para ponerte en contacto conmigo,hazemlo saber enviandome un correo
-            electronico<br />
-            Tambien puedes ponerte en contacto en conmigo a traves de
+            Para ponerte en contacto conmigo,hazmElo saber enviandome un correo
+            electrónico<br />
+            También puedes ponerte en contacto en conmigo a través de
             <strong
               ><a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/" class="enlace white--text">Linkedin</a
               >.</strong
             ><br />
-            Y si aun no has visto mis proyectos te recomiendos que mirar mi
+            Y si quieres investigar más, aquí te dejo mi
             <strong
               ><a href="https://github.com/zergiales" class="enlace white--text">Github</a>.</strong
             ><br />
           </p>
         </div>
       </v-col>
-      <v-col cols="6" class="text-center fade-scroll white--text
+      <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll white--text
       d-flex justify-center align-center">
         <div class="formulario elevation-3">
-          <form action=”mailto:zergiosanchezlopez@gmail.com”
+          <form action="mailto: zergiosanchezlopez@gmail.com"
           method="post" enctype="multipart/form-data">
             <!--donde metemos el nombre-->
             <v-text-field v-model="name"  :counter="20"
@@ -45,7 +46,7 @@
             <v-select v-model="select" :items="items"
             label="¿Eres una empresa o partcular?" required @change="$v.select.$touch()"
             @blur="$v.select.$touch()"></v-select>
-            <v-checkbox v-model="checkbox"  label="Do you agree?"
+            <v-checkbox v-model="checkbox"  label="Aceptas las condiciones y terminos"
             required @change="$v.checkbox.$touch()" @blur="$v.checkbox.$touch()"
             ></v-checkbox>
             <!--botones-->
@@ -59,6 +60,7 @@
   </div>
 </template>
 <script>
+/* import vuelidate */
 import { validationMixin } from 'vuelidate';
 import {
   required, maxLength, email, helpers,

@@ -11,6 +11,8 @@
 #header{
     height: 120px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 #menu{
     display: flex;
@@ -41,8 +43,8 @@
 .contenedor1{
     margin-top: 3em;
     background: linear-gradient(135deg, rgba(244,129,58,1) 0.5%, rgba(118,95,242,1) 60%, rgba(35,28,133,1) 99%);
-    height: 80%;
-    width: 90%;
+    height: 350px;
+    width: 550px;
     border-radius: 5px;
     text-align: justify;
     padding: 2em;
@@ -70,24 +72,22 @@
 }
 /*About me*/
 .contenedor2{
-    padding: 150px;
+    padding: 5em;
     background: linear-gradient(95deg, rgba(244, 129, 58, 1) 15%, rgba(118, 95, 242, 1) 70%);
 }
 /*ContactMe*/
 .contenedor3{
     margin-top: 10px;
-    border: 5 px solid linear-gradient(95deg, rgba(244, 129, 58, 1) 15%, rgba(118, 95, 242, 1) 70%);
     padding: 100px;
-    background: 
-    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
-    linear-gradient(to right, darkblue, darkorchid) border-box;
-  border-radius: 50em;
-  border: 4px solid transparent;
+    border-radius: 50em;
+    border: 4px solid transparent;
 }
 .formulario{
-    height: 100%;
-    width: 100%;
-    padding: 50px;
+    height: 350px;
+    width: 550px;
+    padding: 2em;
+    margin-top: 3em;
+    border-radius: 5px;
 }
 .dos:hover{
     transform: scale(1.4);

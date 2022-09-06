@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <v-row>
-      <v-col cols="6" class="text-center fade-scroll  d-flex justify-center">
+      <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll  d-flex justify-center">
         <div>
           <lottie-player
             class="animation-reverse"
@@ -14,20 +14,19 @@
           ></lottie-player>
         </div>
       </v-col>
-      <v-col cols="6" class="text-center fade-scroll white--text">
+      <v-col xl="6" lg="6" md="12" sm="12" class="text-center
+      fade-scroll white--text">
         <div class="contenedor1 elevation-4">
-          <h1>Hello world! </h1>
-          <p><strong>I´m Sergio</strong></p>
+          <h1>Bienvendio a mi portafolio </h1>
+          <h2>Soy Sergio Sánchez</h2>
           <p>
-              Soy desarrollador de aplicaciones web orientado tanto a la parte de
-              FrontEnd como de Backend.<br />
-            <br />
-            A continuación  podrás ver todos los proyectos personales que he llevado a cabo,
-            y las tecnologías utilizadas para su desarrollo.<br />
-            Para saber más pulse el boton
+            Me dedico al sector del desarrollo de aplicaciones Web<br />
+            Aquí podrás ver mis ultimos proyectos y ver los lenguajes en los que programo<br>
+            Para más información
           </p>
           <v-btn color="secondaryLight" large outlined class="btnC"
-            >About me</v-btn
+              @click="scroll('about')">About me
+          </v-btn
           >
         </div>
       </v-col>
@@ -37,7 +36,14 @@
 <script>
 export default {
   name: 'MyHome',
-  component: {},
-
+  methods: {
+    scroll(section) {
+      const s = document.getElementById(section).offsetTop;
+      window.scroll({
+        top: s,
+        behavior: 'smooth',
+      });
+    },
+  },
 };
 </script>
