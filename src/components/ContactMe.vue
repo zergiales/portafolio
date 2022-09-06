@@ -60,9 +60,11 @@
   </div>
 </template>
 <script>
-/*import vuelidate */
+/* import vuelidate */
 import { validationMixin } from 'vuelidate';
-import {required, maxLength, email, helpers,} from 'vuelidate/lib/validators';
+import {
+  required, maxLength, email, helpers,
+} from 'vuelidate/lib/validators';
 
 const regexName = helpers.regex('regexName', /^[a-zA-Z]*$/);
 
