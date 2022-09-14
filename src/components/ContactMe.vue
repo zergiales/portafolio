@@ -14,7 +14,7 @@
         sm="12"
         class="text-center fade-scroll d-flex justify-center"
       >
-        <div class="contenedor1 elevation-3 white--text" height="50%">
+        <div class="contenedor1 elevation-3 white--text">
           <h2>Si estas interesado</h2>
           <p>
             Puedes ponerte en contacto conmigo por email en:

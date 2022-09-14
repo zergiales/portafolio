@@ -13,9 +13,10 @@
           <p class="texto2">
           <br />
             Me considero una persona autodidacta con muchas ganas de aprender.<br/>
-            Aprendo rápido, me gusta trabajar en grupo, resolutivo y considero que<br/>
-            se solucionar cualquier dificultad ante la adversidad. Soy una persona sería,<br/>
-            responsable y amistosa.<br />
+            Actualmente tengo conocimientos en diversos lenguajes de programacion
+            que he ido aprendiendo<br/>
+            tanto en mi formación académica como en las practicas, así como de manera
+            autodidacta.<br/>
           </p>
         </div>
       </v-col>

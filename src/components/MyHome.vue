@@ -15,9 +15,9 @@
         </div>
       </v-col>
       <v-col xl="6" lg="6" md="12" sm="12" class="text-center
-      fade-scroll white--text">
-        <div class="contenedor1 elevation-4">
-          <h1>Bienvendio a mi portafolio </h1>
+      fade-scroll d-flex justify-center  white--text">
+        <div class="contenedor1 elevation-3">
+          <h1>Bienvendio a mi Portfolio </h1>
           <h2>Soy Sergio Sánchez</h2>
           <p>
             Me dedico al sector del desarrollo de aplicaciones Web<br />
