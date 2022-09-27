@@ -7,13 +7,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col
-        xl="6"
-        lg="6"
-        md="12"
-        sm="12"
-        class="text-center fade-scroll d-flex justify-center"
-      >
+      <v-col xl="6" lg="6" md="6" sm="12" class="text-center fade-scroll d-flex justify-center">
         <div class="contenedor1 elevation-3 white--text">
           <h2>Si estas interesado</h2>
           <p>
@@ -41,12 +35,8 @@
         </div>
       </v-col>
       <v-col
-        xl="6"
-        lg="6"
-        md="12"
-        sm="12"
-        class="text-center fade-scroll white--text d-flex justify-center align-center"
-      >
+        xl="6" lg="6" md="6" sm="12"
+        class="text-center fade-scroll white--text d-flex justify-center align-center">
         <div class="avion">
           <lottie-player
             class="animation-reverse"

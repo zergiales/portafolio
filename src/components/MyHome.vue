@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <v-row>
-      <v-col xl="6" lg="6" md="12" sm="12" class="text-center fade-scroll  d-flex justify-center">
+      <v-col xl="6" lg="6" md="6" sm="12" class="text-center fade-scroll  d-flex justify-center">
         <div>
           <lottie-player
             class="animation-reverse"
@@ -14,7 +14,7 @@
           ></lottie-player>
         </div>
       </v-col>
-      <v-col xl="6" lg="6" md="12" sm="12" class="text-center
+      <v-col xl="6" lg="6" md="6" sm="12" class="text-center
       fade-scroll d-flex justify-center  white--text">
         <div class="contenedor1 elevation-3">
           <h1>Bienvendio a mi Portafolio </h1>
