@@ -20,12 +20,12 @@
           <h1>Bienvendio a mi Portafolio </h1>
           <h2>Soy Sergio Sánchez</h2>
           <p>
-            Me dedico al sector del desarrollo de aplicaciones Web<br />
-            Aquí podrás ver mis ultimos proyectos y ver los lenguajes en los que programo<br>
-            Para más información
+            Actualmente soy desarrollador de aplicaciones web<br />
+            Aquí podrás ver mis ultimos proyectos y los lenguajes en los que desarrollo<br>
+            No obstante, si quiere saber más...
           </p>
           <v-btn color="secondaryLight" large outlined class="btnC"
-              @click="scroll('about')">About me
+              @click="scroll('about')">Saber más
           </v-btn
           >
         </div>
