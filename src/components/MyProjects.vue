@@ -81,7 +81,7 @@ export default {
           ],
           descripcion: 'Ahorcado que realizado con un array  que tiene palabras (POO)',
           link1: 'https://github.com/zergiales/ahorcado.git',
-          link2: '',
+          link2: 'https://6429c2adab8bc433a83e3ed0--ahorcate.netlify.app/',
         },
         {
           img: 'capturas/trivialIcon',
