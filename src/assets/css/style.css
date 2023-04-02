@@ -33,7 +33,7 @@
 }
 .texto2{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: lighter;
     text-align: center;
 }
 /*donde esta todo */
@@ -75,6 +75,7 @@
 .contenedor2{
     padding: 5em;
     background: linear-gradient(95deg, rgba(244, 129, 58, 1) 15%, rgba(118, 95, 242, 1) 70%);
+    text-align: justify;
 }
 /*ContactMe*/
 .contenedor3{

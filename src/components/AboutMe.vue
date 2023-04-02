@@ -10,25 +10,27 @@
       <v-col cols="12" class="text-center fade-scroll white--text
       d-flex justify-center ">
         <div>
-          <p class="texto2">La informática siempre me ha llamado la atención, en especial la
-          parte del desarrollo. Por lo tanto en 2019 decidí formarme más en detalle,<br/>
-          realizando un ciclo formativo de grado superior de desarrollo de aplicaciones web.
-          Gracias a esto puede asentar unas bases solidas donde poder crecer en este mundo.
-          Por supuesto ahi no me paré,debido a que este mundo se encuentra en un crecimiento
-          constante<br/>
-          he tenido que seguir aprendiendo a través de cursos online, como los que  ofrecen en
-          la plataforma de <strong>
+          <p class="texto2">
+          La informática siempre me ha llamado la atención, en concreto,
+          la parte del desarrollo web.<br/>
+          En 2019 realicé un grado superior de Desarrollo De Aplicaciones Web donde conseguí
+          asentar las bases de mis conocimientos.<br/>
+          <br/>
+          Debido a que este mundo se encuentra en un crecimiento
+          constante he tenido que seguir aprendiendo a través de cursos online,<br/>
+          como los que  ofrecen en <strong>
           <a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/"
-          class="enlace white--text">Udemy</a></strong>
-          Actualmente sigo formandome también estudiando una ingeniería informática y una
-          especialización de ciberseguridad de manera online y presencial respectivamente.
+          class="enlace white--text">Udemy</a>
+          </strong>. Actualmente me encuentro realizando los estudios de Ingeniería
+          informática.
           </p>
           <p class="texto2">
-          <br />
-            Si tuviera que hacer una pequeña descripción sobre mi, diría que me considero una
-            persona constante y autodidacta con muchas ganas de aprender.
-            En mi tiempo libre trato de hacer proyectos que voy subiendo a mi repositorio en github,
-            y hago mucho deporte,manteniendo una vida sana y equilibrada.
+          <br/>
+            Si tuviese que hacer una pequeña descripción sobre mí, diría que soy una
+            persona constante, con un objetivo claro y con muchas ganas de aprender.<br/>
+            En cuanto a mis aficiones, hago mucho ejercicio, manteniendo un estilo de vida
+            sano y equilibrado.Me gusta viajar y hacer planes improvisados con mis amigos y
+            mi familia.
           </p>
         </div>
       </v-col>

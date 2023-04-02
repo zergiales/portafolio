@@ -1,7 +1,8 @@
 <template>
   <div id="home">
     <v-row>
-      <v-col xl="6" lg="6" md="6" sm="12" class="text-center fade-scroll  d-flex justify-center">
+      <v-col xl="6" lg="6" md="6" sm="12" class="text-center fade-scroll  d-flex justify-center
+      iphone">
         <div>
           <lottie-player
             class="animation-reverse"
@@ -20,9 +21,10 @@
           <h1>Bienvendio a mi Portafolio </h1>
           <h2>Soy Sergio Sánchez</h2>
           <p>
-            Actualmente soy desarrollador de aplicaciones web<br />
-            Aquí podrás ver mis ultimos proyectos y los lenguajes en los que desarrollo<br>
-            No obstante, si quiere saber más...
+            Soy desarrollador de aplicaciones web FullStack. <br />
+            Aquí podrás ver mis últimos proyectos y los lenguajes en los que desarrollo
+            actualmente<br>
+            Si quieres saber más...
           </p>
           <v-btn color="secondaryLight" large outlined class="btnC"
               @click="scroll('about')">Saber más
@@ -47,3 +49,11 @@ export default {
   },
 };
 </script>
+<style>
+/* estilos  que solo queremos aplicar cuando se ponga pequeño*/
+@media (max-width: 768px) {
+  .iphone{
+    margin-top:15% ;
+  }
+}
+</style>
