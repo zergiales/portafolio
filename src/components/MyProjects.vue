@@ -56,7 +56,7 @@ export default {
           ],
           descripcion: 'Aplicacion de geoposicionamiento y localización de baños',
           link1: 'https://github.com/zergiales/geo-water.git',
-          link2:'https://github.com/zergiales/geo-water.git',
+          link2: 'https://github.com/zergiales/geo-water.git',
         },
         {
           img: 'capturas/brick',

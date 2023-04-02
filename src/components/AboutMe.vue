@@ -11,27 +11,24 @@
       d-flex justify-center ">
         <div>
           <p class="texto2">
-          La informática siempre me ha llamado la atención, en concreto,
-          la parte del desarrollo web.<br/>
-          En 2019 realicé un grado superior de Desarrollo De Aplicaciones Web donde conseguí
-          asentar las bases de mis conocimientos.<br/>
-          <br/>
-          Debido a que este mundo se encuentra en un crecimiento
-          constante he tenido que seguir aprendiendo a través de cursos online,<br/>
-          como los que  ofrecen en <strong>
+          La informática siempre me ha llamado la atención. En concreto,
+          el área destinada al desarrollo web.<br/>
+
+          En 2019 cursé, con éxito, un grado superior en desarrollo de aplicaciones web.
+          Entonces, conseguí asentar las bases de mis conocimientos.<br/>
+
+          Puesto que este mundo se encuentra en un crecimiento constante, decidí continuar
+          mi formación, a través de cursos online. Entre ellos, destacaría la amplia oferta
+          que encontré en <strong>
           <a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/"
-          class="enlace white--text">Udemy</a>
-          </strong>. Actualmente me encuentro realizando los estudios de Ingeniería
-          informática.
-          </p>
-          <p class="texto2">
-          <br/>
-            Si tuviese que hacer una pequeña descripción sobre mí, diría que soy una
-            persona constante, con un objetivo claro y con muchas ganas de aprender.<br/>
-            En cuanto a mis aficiones, hago mucho ejercicio, manteniendo un estilo de vida
-            sano y equilibrado.Me gusta viajar y hacer planes improvisados con mis amigos y
-            mi familia.
-          </p>
+          class="enlace white--text">Udemy</a></strong>.
+          <br/>Actualmente, me encuentro realizando los estudios de Ingeniería informática.
+          Si tuviese que hacer una pequeña descripción sobre mí, diría que soy una
+          persona constante, con un objetivo claro y muchas ganas de aprender.<br/>
+          En cuanto a mis aficiones, hago mucho ejercicio, manteniendo un estilo de vida
+          sano y equilibrado.Me gusta viajar, así como improvisar multitud de planes,
+          con mis amigos y mi familia.
+
         </div>
       </v-col>
     </v-row>
