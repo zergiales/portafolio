@@ -29,7 +29,8 @@
             <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link1)">
               Repo
             </v-btn>
-            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link2)">
+            <v-btn color="primary" large outlined class="btnC" v-bind:disabled="!proyect.link2"
+            @click="abrirVentana(proyect.link2)">
               Demo
             </v-btn>
           </v-card-actions>
@@ -56,7 +57,7 @@ export default {
           ],
           descripcion: 'Aplicacion de geoposicionamiento y localización de baños',
           link1: 'https://github.com/zergiales/geo-water.git',
-          link2: 'https://github.com/zergiales/geo-water.git',
+          link2: '',
         },
         {
           img: 'capturas/brick',
@@ -80,7 +81,7 @@ export default {
           ],
           descripcion: 'Ahorcado que realizado con un array  que tiene palabras (POO)',
           link1: 'https://github.com/zergiales/ahorcado.git',
-          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
+          link2: '',
         },
         {
           img: 'capturas/trivialIcon',
@@ -94,7 +95,7 @@ export default {
           ],
           descripcion: 'Trivial que guarda las preguntas en un csv. 100% funcional.',
           link1: 'https://github.com/zergiales/trivial.git',
-          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
+          link2: '',
         },
         {
           img: 'capturas/calculadoraIcon',
@@ -106,7 +107,7 @@ export default {
           ],
           descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica. (POO)',
           link1: 'https://github.com/zergiales/calculadora.git',
-          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
+          link2: '',
 
         },
         {
@@ -121,7 +122,7 @@ export default {
           ],
           descripcion: 'Gestor de base de datos de una escuela de alumnos funcional.',
           link1: 'https://github.com/zergiales/gestor-base-alumnos.git',
-          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
+          link2: '',
         },
       ],
     };
