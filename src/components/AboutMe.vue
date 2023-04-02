@@ -28,7 +28,7 @@
           En cuanto a mis aficiones, hago mucho ejercicio, manteniendo un estilo de vida
           sano y equilibrado.Me gusta viajar, así como improvisar multitud de planes,
           con mis amigos y mi familia.
-
+          </p>
         </div>
       </v-col>
     </v-row>
