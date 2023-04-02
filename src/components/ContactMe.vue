@@ -8,7 +8,7 @@
     </v-row>
     <v-row>
       <v-col xl="6" lg="6" md="6" sm="12" class="text-center fade-scroll d-flex justify-center">
-        <div class="contenedor1 elevation-3 white--text">
+        <div class="contenedor4 elevation-3 white--text">
           <h2>Si estas interesado</h2>
           <p>
             Puedes ponerte en contacto conmigo por email en:
@@ -54,6 +54,13 @@
 </template>
 <style>
   .avion{
-    margin-top: -30%;
+    width: 300px;
+    margin-top: -10%;
   }
+/* estilos  que solo queremos aplicar cuando se ponga pequeño*/
+@media (max-width: 768px) {
+  .avion{
+    margin-top: -10px;
+  }
+}
 </style>

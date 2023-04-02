@@ -27,7 +27,10 @@
           <v-divider class="mx-4"></v-divider>
           <v-card-actions class="d-flex justify-center align-center">
             <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link)">
-              Show more
+              Repo
+            </v-btn>
+            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link)">
+              Demo
             </v-btn>
           </v-card-actions>
         </v-card>

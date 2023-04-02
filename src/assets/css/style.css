@@ -50,6 +50,14 @@
     text-align: justify;
     padding: 2em;
 }
+/*responsive para iphone */
+@media (max-width: 768px){
+    .contenedor1{
+        padding: 2%;
+        height: 280px;
+        margin-bottom: 30px;
+    }
+}
 .btnC:hover{
     transition: 0.8s;
     transform: translateY(5px);
@@ -83,13 +91,27 @@
     padding: 100px;
     border-radius: 50em;
     border: 4px solid transparent;
+    margin-bottom: -15px;
+    
 }
-.formulario{
-    height: 350px;
-    width: 550px;
+/*Contact*/
+.contenedor4{
     padding: 2em;
-    margin-top: 3em;
+    background: linear-gradient(95deg, rgba(244, 129, 58, 1) 15%, rgba(118, 95, 242, 1) 70%);
+    text-align: justify;
     border-radius: 5px;
+    height: 200px;
+    width: 100%;
+}
+/*para iphone*/
+/* estilos  que solo queremos aplicar cuando se ponga pequeño*/
+@media (max-width: 768px) {
+  .contenedor4{
+    height: 270px;
+    width: 550px;
+    border-radius: 5px;
+    text-align: left;
+  }
 }
 .dos:hover{
     transform: scale(1.4);
