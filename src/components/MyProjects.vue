@@ -26,10 +26,10 @@
           </v-card-text>
           <v-divider class="mx-4"></v-divider>
           <v-card-actions class="d-flex justify-center align-center">
-            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link)">
+            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link1)">
               Repo
             </v-btn>
-            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link)">
+            <v-btn color="primary" large outlined class="btnC" @click="abrirVentana(proyect.link2)">
               Demo
             </v-btn>
           </v-card-actions>
@@ -55,7 +55,8 @@ export default {
             'logos/axios',
           ],
           descripcion: 'Aplicacion de geoposicionamiento y localización de baños',
-          link: 'https://github.com/zergiales/geo-water.git',
+          link1: 'https://github.com/zergiales/geo-water.git',
+          link2:'https://github.com/zergiales/geo-water.git',
         },
         {
           img: 'capturas/brick',
@@ -66,7 +67,8 @@ export default {
             'logos/javascript',
           ],
           descripcion: 'brick breaker sencillo  (juego arcade)',
-          link: 'https://github.com/zergiales/brick-game.git',
+          link1: 'https://github.com/zergiales/brick-game.git',
+          link2: 'https://main--sergiosl.netlify.app/',
         },
         {
           img: 'capturas/ahorcadoIcon',
@@ -77,7 +79,8 @@ export default {
             'logos/javascript',
           ],
           descripcion: 'Ahorcado que realizado con un array  que tiene palabras (POO)',
-          link: 'https://github.com/zergiales/ahorcado.git',
+          link1: 'https://github.com/zergiales/ahorcado.git',
+          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
         },
         {
           img: 'capturas/trivialIcon',
@@ -90,7 +93,8 @@ export default {
             'logos/csv',
           ],
           descripcion: 'Trivial que guarda las preguntas en un csv. 100% funcional.',
-          link: 'https://github.com/zergiales/trivial.git',
+          link1: 'https://github.com/zergiales/trivial.git',
+          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
         },
         {
           img: 'capturas/calculadoraIcon',
@@ -101,7 +105,9 @@ export default {
             'logos/javascript',
           ],
           descripcion: 'Calculadora realizada con el paradigma poo. tiene opcion cientifica. (POO)',
-          link: 'https://github.com/zergiales/calculadora.git',
+          link1: 'https://github.com/zergiales/calculadora.git',
+          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
+
         },
         {
           img: 'capturas/gesto',
@@ -114,7 +120,8 @@ export default {
             'logos/sql',
           ],
           descripcion: 'Gestor de base de datos de una escuela de alumnos funcional.',
-          link: 'https://github.com/zergiales/gestor-base-alumnos.git',
+          link1: 'https://github.com/zergiales/gestor-base-alumnos.git',
+          link2: 'https://github.com/zergiales/gestor-base-alumnos.git',
         },
       ],
     };
