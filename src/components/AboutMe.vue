@@ -13,17 +13,17 @@
           <p class="texto2">
           La informática siempre me ha llamado la atención. En concreto,
           el área destinada al desarrollo web.<br/>
-
+          <br/>
           En 2019 cursé, con éxito, un grado superior en desarrollo de aplicaciones web.
           Entonces, conseguí asentar las bases de mis conocimientos.<br/>
 
           Puesto que este mundo se encuentra en un crecimiento constante, decidí continuar
-          mi formación, a través de cursos online. Entre ellos, destacaría la amplia oferta
+          mi formación, a través de cursos online.<br/> Entre ellos, destacaría la amplia oferta
           que encontré en <strong>
           <a href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/"
           class="enlace white--text">Udemy</a></strong>.
-          <br/>Actualmente, me encuentro realizando los estudios de Ingeniería informática.
-          Si tuviese que hacer una pequeña descripción sobre mí, diría que soy una
+          Actualmente, me encuentro realizando los estudios de Ingeniería informática.<br/>
+          <br/>Si tuviese que hacer una pequeña descripción sobre mí, diría que soy una
           persona constante, con un objetivo claro y muchas ganas de aprender.<br/>
           En cuanto a mis aficiones, hago mucho ejercicio, manteniendo un estilo de vida
           sano y equilibrado.Me gusta viajar, así como improvisar multitud de planes,
