@@ -26,7 +26,7 @@ export default {
       {
         name: 'linkedin',
         icon: 'mdi-linkedin',
-        url: 'https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/',
+        url: 'https://www.linkedin.com/in/sergio-s%C3%A1nchez-lopez/',
       },
     ],
   }),

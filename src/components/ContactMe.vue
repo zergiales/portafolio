@@ -20,7 +20,7 @@
             También puedes contactar conmigo a través de
             <strong
               ><a
-                href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-8b5711162/"
+                href="https://www.linkedin.com/in/sergio-s%C3%A1nchez-lopez/"
                 class="enlace white--text"
                 >Linkedin</a
               >.</strong
