@@ -53,8 +53,8 @@
 /*responsive para iphone */
 @media (max-width: 768px){
     .contenedor1{
-        padding: 2%;
-        height: 280px;
+        padding: 1em;
+        height: 358px;
         margin-bottom: 30px;
     }
 }
