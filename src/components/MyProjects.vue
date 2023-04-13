@@ -69,7 +69,7 @@ export default {
           ],
           descripcion: 'brick breaker sencillo  (juego arcade)',
           link1: 'https://github.com/zergiales/brick-game.git',
-          link2: 'https://main--sergiosl.netlify.app/',
+          link2: 'https://brick-game-zs.netlify.app/',
         },
         {
           img: 'capturas/ahorcadoIcon',
